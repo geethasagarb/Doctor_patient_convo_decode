@@ -2,5 +2,6 @@ torch
 torchvision
 torchaudio
 git+https://github.com/openai/whisper.git
-streamlit
-imageio[ffmpeg]
+streamlit>=1.15.0
+ffmpeg-python
+
