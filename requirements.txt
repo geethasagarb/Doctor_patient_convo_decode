@@ -1,3 +1,4 @@
+groq
 torch
 torchvision
 torchaudio
