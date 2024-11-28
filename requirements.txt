@@ -1,8 +1,12 @@
-groq
-torch
-torchvision
-torchaudio
-git+https://github.com/openai/whisper.git
-streamlit>=1.15.0
+# General dependencies
+torch>=1.10.0
+torchvision>=0.11.0
+torchaudio>=0.10.0
 ffmpeg-python
+streamlit>=1.15.0
 
+# Specific packages
+git+https://github.com/openai/whisper.git
+
+# Groq (if needed) – make sure Groq is installed with the proper setup, as it may require additional configurations
+groq
