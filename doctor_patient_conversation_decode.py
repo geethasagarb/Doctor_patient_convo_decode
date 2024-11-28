@@ -7,7 +7,6 @@ import os
 import ffmpeg
 from io import BytesIO
 from groq import Groq 
-from ffmpeg import FFmpeg
 
 
 # Load the Whisper model
